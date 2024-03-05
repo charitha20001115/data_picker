@@ -1,0 +1,5 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+	<!-- <Button core:require="{ handler: 'dpt/ext/fragment/DPt'}" text="dpt" press="handler.onPress" -->
+	<DatePicker id="idInput3"  placeholder="Select Date" core:require="{ handler: 'picker/ext/fragment/Date'}" change="handler.change" afterValueHelpClose="handler.close" />
+
+</core:FragmentDefinition>
